@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CC Buchner Arbeitsblatt Generator - Erstellen Sie differenzierte Arbeitsblätter mit KI-Unterstützung">
+    <meta name="author" content="Dominik Gleißner, CC Buchner Verlag">
+    
+    <title>CC Buchner - Arbeitsblatt Generator</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <img src="cc-buchner-logo.png" alt="CC Buchner Logo" class="logo">
+            </div>
+            <h1>Arbeitsblatt mit KI erstellen</h1>
+        </header>
+
+        <div class="progress-bar">
+            <div class="step active" onclick="openSection('allgemeine-angaben')" role="button" tabindex="0">
+                <div class="step-number">1</div>
+                <div class="step-text">Allgemeine Angaben</div>
+            </div>
+            <div class="step" onclick="openSection('details')" role="button" tabindex="0">
+                <div class="step-number">2</div>
+                <div class="step-text">Details</div>
+            </div>
+            <div class="step" onclick="openSection('output')" role="button" tabindex="0">
+                <div class="step-number">3</div>
+                <div class="step-text">Generiertes Arbeitsblatt</div>
+            </div>
+        </div>
+
+        <main>
+            <form id="arbeitsblatt-form">
+                <section id="allgemeine-angaben" class="section-content active">
+                    <div class="form-group">
+                        <label for="fach">Fach:</label>
+                        <select id="fach" name="fach" required>
+                            <option value="">Bitte wählen</option>
+                            <option value="Wirtschaft">Wirtschaft</option>
+                            <option value="Politik">Politik</option>
+                            <option value="Sozialwissenschaften">Sozialwissenschaften</option>
+                            <option value="Geschichte">Geschichte</option>
+                            <option value="Erdkunde">Erdkunde</option>
+                        </select>
+
+                        <label for="klassenstufe">Klassenstufe:</label>
+                        <div class="slider-container">
+                            <input type="range" id="klassenstufe" name="klassenstufe" min="5" max="13" value="7">
+                            <span id="klassenstufe-value">7</span>
+                        </div>
+
+                        <label for="differenzierungsstufe">Differenzierungsstufe:</label>
+                        <select id="differenzierungsstufe" name="differenzierungsstufe" required>
+                            <option value="">Bitte wählen</option>
+                            <option value="Leicht">Leicht</option>
+                            <option value="Mittel">Mittel</option>
+                            <option value="Schwer">Schwer</option>
+                        </select>
+
+                        <label for="aufgabenformat">Aufgabenformat:</label>
+                        <select id="aufgabenformat" name="aufgabenformat" required>
+                            <option value="">Bitte wählen</option>
+                            <option value="Multiple Choice">Multiple Choice</option>
+                            <option value="Lückentext">Lückentext</option>
+                            <option value="Wahr/Falsch">Wahr/Falsch-Aussage</option>
+                        </select>
+
+                        <button type="button" class="next-button" onclick="openSection('details')">
+                            Weiter zu Details
+                        </button>
+                    </div>
+                </section>
+
+                <section id="details" class="section-content">
+                    <div class="form-group">
+                        <label for="thema">Thema:</label>
+                        <input type="text" id="thema" name="thema" required>
+
+                        <label for="eingabetext">Grundlagentext für die Arbeitsblatt-Erstellung:</label>
+                        <textarea id="eingabetext" name="eingabetext" required></textarea>
+
+                        <label for="lernziele">Lernziele (optional):</label>
+                        <textarea id="lernziele" name="lernziele"></textarea>
+
+                        <label for="custom-prompt">Eigener Prompt (optional):</label>
+                        <textarea id="custom-prompt" name="custom-prompt"></textarea>
+
+                        <div class="navigation-buttons">
+                            <button type="button" class="back-button" onclick="openSection('allgemeine-angaben')">
+                                Zurück
+                            </button>
+                            <button type="submit" class="generate-button">
+                                Arbeitsblatt generieren
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="output" class="section-content">
+                    <div id="result"></div>
+                    <button type="button" class="back-button" onclick="openSection('details')">
+                        Zurück zu Details
+                    </button>
+                </section>
+            </form>
+        </main>
+
+        <div id="loading-indicator" class="hidden">
+            <div class="spinner"></div>
+            <p>Arbeitsblatt wird generiert...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

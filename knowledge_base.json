@@ -1,0 +1,279 @@
+{
+    "faecher": {
+      "Wirtschaft": {
+        "schwerpunkte": [
+          "Ökonomisches Denken und Handeln",
+          "Wirtschaftskreisläufe und Märkte",
+          "Unternehmerische Entscheidungsprozesse",
+          "Rolle als Verbraucher und Arbeitnehmer",
+          "Globale Wirtschaftsbeziehungen",
+          "Nachhaltiges Wirtschaften"
+        ],
+        "kernkompetenzen": [
+          "Analyse wirtschaftlicher Entscheidungssituationen",
+          "Bewertung ökonomischer Handlungsalternativen",
+          "Interpretation wirtschaftlicher Daten und Statistiken",
+          "Erkennen von Interessenkonflikten",
+          "Beurteilung wirtschaftspolitischer Maßnahmen"
+        ]
+      },
+      "Politik": {
+        "schwerpunkte": [
+          "Politische Systeme und Institutionen",
+          "Demokratische Prozesse",
+          "Politische Willensbildung",
+          "Internationale Beziehungen",
+          "Grund- und Menschenrechte",
+          "Politische Konflikte und Lösungen"
+        ],
+        "kernkompetenzen": [
+          "Analyse politischer Strukturen und Prozesse",
+          "Beurteilung politischer Entscheidungen",
+          "Erkennen verschiedener politischer Perspektiven",
+          "Partizipation in demokratischen Prozessen",
+          "Konfliktanalyse und Lösungsfindung"
+        ]
+      },
+      "Sozialwissenschaften": {
+        "schwerpunkte": [
+          "Gesellschaftliche Strukturen und Wandel",
+          "Soziale Ungleichheit und Diversität",
+          "Medien und Kommunikation",
+          "Soziologische Theorien",
+          "Methoden empirischer Sozialforschung",
+          "Identität und Sozialisation"
+        ],
+        "kernkompetenzen": [
+          "Analyse gesellschaftlicher Zusammenhänge",
+          "Durchführung empirischer Untersuchungen",
+          "Kritische Medienanalyse",
+          "Reflexion sozialer Rollen und Normen",
+          "Beurteilung gesellschaftlicher Entwicklungen"
+        ]
+      },
+      "Geschichte": {
+        "schwerpunkte": [
+          "Historische Epochen und Wendepunkte",
+          "Quellenanalyse und Interpretation",
+          "Geschichtliche Zusammenhänge",
+          "Historische Kontinuität und Wandel",
+          "Gegenwartsbezüge historischer Ereignisse",
+          "Multiperspektivität in der Geschichte"
+        ],
+        "kernkompetenzen": [
+          "Analyse historischer Quellen",
+          "Rekonstruktion historischer Sachverhalte",
+          "Beurteilung historischer Interpretationen",
+          "Erkennen von Zusammenhängen und Entwicklungen",
+          "Historische Urteilsbildung"
+        ]
+      },
+      "Erdkunde": {
+        "schwerpunkte": [
+          "Physische Geographie",
+          "Humangeographie",
+          "Mensch-Umwelt-Beziehungen",
+          "Raumanalyse und -entwicklung",
+          "Nachhaltige Entwicklung",
+          "Globalisierung und ihre Auswirkungen"
+        ],
+        "kernkompetenzen": [
+          "Analyse räumlicher Strukturen",
+          "Kartenkompetenz und Orientierung",
+          "Beurteilung von Raumnutzungskonflikten",
+          "Methodenkompetenz (GIS, Satellitenbilder)",
+          "Entwicklung nachhaltiger Lösungsansätze"
+        ]
+      }
+    },
+    "klassenstufen": {
+      "5-7": {
+        "kognitive_anforderungen": [
+          "Konkrete Operationen",
+          "Einfache Zusammenhänge",
+          "Grundlegendes Fachwissen",
+          "Geleitetes Arbeiten"
+        ],
+        "sprachliche_komplexitaet": {
+          "satzlaenge": "kurz (max. 10-12 Wörter)",
+          "struktur": "einfach und klar",
+          "fachbegriffe": "sparsam, mit Erklärungen"
+        },
+        "methodische_hilfen": [
+          "Visualisierungen",
+          "Schritt-für-Schritt-Anleitungen",
+          "Vorstrukturierte Arbeitsblätter"
+        ]
+      },
+      "8-10": {
+        "kognitive_anforderungen": [
+          "Abstrakteres Denken",
+          "Komplexere Zusammenhänge",
+          "Vertieftes Fachwissen",
+          "Teilweise selbstständiges Arbeiten"
+        ],
+        "sprachliche_komplexitaet": {
+          "satzlaenge": "mittel (12-15 Wörter)",
+          "struktur": "auch Nebensätze",
+          "fachbegriffe": "regelmäßig, teilweise mit Erklärungen"
+        },
+        "methodische_hilfen": [
+          "Methodische Hinweise",
+          "Strukturierungshilfen",
+          "Rechercheanregungen"
+        ]
+      },
+      "11-13": {
+        "kognitive_anforderungen": [
+          "Formales Denken",
+          "Komplexe Zusammenhänge",
+          "Wissenschaftspropädeutik",
+          "Selbstständiges Arbeiten"
+        ],
+        "sprachliche_komplexitaet": {
+          "satzlaenge": "auch längere Sätze",
+          "struktur": "komplex",
+          "fachbegriffe": "häufig, präzise Verwendung"
+        },
+        "methodische_hilfen": [
+          "Methodische Anregungen",
+          "Wissenschaftliche Arbeitstechniken",
+          "Selbstreflexion"
+        ]
+      }
+    },
+    "differenzierung": {
+      "aufgabentypen": {
+        "leicht": {
+          "operatoren": [
+            "nenne",
+            "beschreibe",
+            "liste auf",
+            "ordne zu",
+            "markiere",
+            "ergänze"
+          ],
+          "hilfestellungen": [
+            "Vorstrukturierte Antwortfelder",
+            "Wortgeländer",
+            "Visualisierungen",
+            "Beispielantworten",
+            "Schlüsselbegriffe als Hilfen"
+          ],
+          "aufgabenmerkmale": [
+            "Kurze, klare Sätze",
+            "Einfache Sprache",
+            "Schrittweise Anleitungen",
+            "Fokus auf Reproduktion",
+            "Eindeutige Lösungen"
+          ]
+        },
+        "mittel": {
+          "operatoren": [
+            "erkläre",
+            "vergleiche",
+            "analysiere",
+            "stelle dar",
+            "untersuche",
+            "charakterisiere"
+          ],
+          "hilfestellungen": [
+            "Methodische Hinweise",
+            "Teilaufgaben",
+            "Optionale Hilfestellungen",
+            "Strukturierungshilfen"
+          ],
+          "aufgabenmerkmale": [
+            "Komplexere Zusammenhänge",
+            "Fachbegriffe mit Erklärungen",
+            "Transfer auf ähnliche Kontexte",
+            "Teilweise offene Lösungen"
+          ]
+        },
+        "schwer": {
+          "operatoren": [
+            "beurteile",
+            "entwickle",
+            "diskutiere",
+            "prüfe",
+            "interpretiere",
+            "erörtere"
+          ],
+          "hilfestellungen": [
+            "Methodische Anregungen",
+            "Weiterführende Fragen",
+            "Kritische Perspektiven"
+          ],
+          "aufgabenmerkmale": [
+            "Komplexe Sachverhalte",
+            "Hoher Abstraktionsgrad",
+            "Transfer auf neue Kontexte",
+            "Offene Lösungswege",
+            "Eigenständige Urteilsbildung"
+          ]
+        }
+      }
+    },
+    "aufgabenformate": {
+      "mustervorlagen": {
+        "multiple_choice": {
+          "struktur": "4 Antwortoptionen, davon 1 korrekt",
+          "beispiele": [
+            {
+              "leicht": "Welche der folgenden Aussagen ist richtig? (A) ... (B) ... (C) ... (D) ...",
+              "mittel": "Welche Schlussfolgerung lässt sich aus der Quelle ziehen? (A) ... (B) ... (C) ... (D) ...",
+              "schwer": "Welche Interpretation ist am überzeugendsten? (A) ... (B) ... (C) ... (D) ..."
+            }
+          ]
+        },
+        "lueckentext": {
+          "struktur": "Text mit gezielten Lücken, ggf. mit Wortspeicher",
+          "beispiele": [
+            {
+              "leicht": "Text mit direkten Fakten als Lücken, Wortspeicher vorgegeben",
+              "mittel": "Text mit Fachbegriffen als Lücken, teilweise Wortspeicher",
+              "schwer": "Text mit Konzepten als Lücken, ohne Wortspeicher"
+            }
+          ]
+        },
+        "wahr_falsch": {
+          "struktur": "Aussagen mit Bewertung und Begründung",
+          "beispiele": [
+            {
+              "leicht": "Einfache Faktenwiedergabe mit Wahr/Falsch",
+              "mittel": "Zusammenhänge erkennen und bewerten",
+              "schwer": "Komplexe Aussagen analysieren und begründet bewerten"
+            }
+          ]
+        }
+      },
+      "bewertungsraster": {
+        "multiple_choice": {
+          "punkte_pro_aufgabe": 1,
+          "bewertungskriterien": [
+            "Korrekte Auswahl",
+            "Bei höherem Niveau: Begründung der Auswahl"
+          ]
+        },
+        "lueckentext": {
+          "punkte_pro_luecke": 0.5,
+          "bewertungskriterien": [
+            "Korrekte Begriffe",
+            "Grammatikalische Passung",
+            "Fachliche Angemessenheit"
+          ]
+        },
+        "wahr_falsch": {
+          "punkte_pro_aufgabe": {
+            "ohne_begruendung": 1,
+            "mit_begruendung": 2
+          },
+          "bewertungskriterien": [
+            "Korrekte Einschätzung",
+            "Qualität der Begründung",
+            "Verwendung von Fachsprache"
+          ]
+        }
+      }
+    }
+  }
